@@ -1,0 +1,279 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", Helvetica, sans-serif;
+  background-color: #ebebeb;
+}
+
+.mercadoliebre {
+  width: 50%;
+  padding: 15px;
+}
+.barra-de-busqueda {
+  width: 50%;
+  display: flex;
+  border-radius: 4px;
+  align-items: center;
+}
+.logo-bar {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 3% 5% 2% 5%;
+}
+header {
+  background-color: #eac926;
+  width: 100%;
+}
+.barra {
+  background-color: #fff;
+  padding: 2px;
+  border-radius: 5px;
+  border: none;
+  width: 100%;
+  font-family: inherit;
+}
+.lupa {
+  width: 20px;
+  background-color: #fff;
+  border: 1px solid #666;
+  color: #666;
+}
+.lupa i {
+  font-size: 15px;
+}
+.icon-ingresa i {
+  font-size: 15px;
+}
+
+.compra-cuota {
+  font-size: 13px;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  font-weight: bold;
+}
+nav ul li i {
+  padding-left: 5px;
+}
+.burger-menu i {
+  background-color: #1259c3;
+  color: white;
+  padding: 12px;
+  font-size: 20px;
+  margin: 20px 44.5% 20px 44.5%;
+  border-radius: 5px;
+}
+.header-nav {
+  display: none;
+}
+p {
+  font-size: 12px;
+}
+h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 15px;
+}
+.precio {
+  font-size: 18px;
+}
+.descuento {
+  font-size: 16px;
+}
+.descripcion {
+  display: none;
+  color: white;
+  transition: 0.6s;
+}
+h4 {
+  font-size: 16px;
+}
+main section article i {
+  display: block;
+  font-size: 16px;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #39b54a;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  right: 20px;
+  top: -15px;
+}
+.ultima-visita,
+.ofertas {
+  display: flex;
+  flex-wrap: wrap;
+}
+.caja-article {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  padding: 15px;
+  background-color: white;
+  border-top: #ebebeb solid 1px;
+  width: 100%;
+}
+.precio {
+  width: 30%;
+}
+.descuento {
+  width: 70%;
+  text-align: center;
+}
+footer {
+  padding: 20px;
+  width: 100%;
+  background-color: #ebebeb;
+}
+
+footer section {
+  text-align: center;
+  background-color: white;
+  padding: 10px;
+}
+
+.icon-footer {
+  font-size: 2em;
+  color: #1259c3;
+  background-color: white;
+  margin-bottom: 10px;
+}
+.icon-footer i {
+  transition: all, 0.6s;
+}
+.copyright {
+  font-size: 10px;
+}
+
+.footer-li {
+  font-weight: bold;
+}
+
+footer section ul p {
+  padding: 5px 20px 5px 20px;
+}
+main section article {
+  margin-bottom: 10px;
+  transition: 0.6s;
+}
+main section {
+  width: 90%;
+  margin: 0px 5%;
+}
+
+.caja-article i,
+.descuento {
+  color: #39b54a;
+  transition: all, 0.7s;
+}
+article img {
+  width: 100%;
+}
+.banner img {
+  width: 100%;
+}
+main section article:hover i {
+  transform: rotate(-90deg);
+}
+main section article:hover {
+  box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+main section article:hover .descripcion {
+  color: #666;
+}
+.icon-footer i:hover {
+  color: #0022aa;
+}
+
+@media (min-width: 361px) {
+  .descripcion {
+    display: block;
+  }
+  .header-nav {
+    display: block;
+  }
+  .burger-menu i {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  /*main section article .descripcion {
+    display: none;
+  }*/
+  .burger-menu i {
+    display: none;
+  }
+  main section article {
+    width: 45%;
+  }
+  .ultima-visita,
+  .ofertas {
+    justify-content: space-around;
+  }
+  .logo-bar {
+    align-items: center;
+  }
+  .mercadoliebre {
+    width: 30%;
+  }
+  .barra-de-busqueda {
+    width: 30%;
+    justify-content: center;
+  }
+  .compra-cuota {
+    width: 40%;
+  }
+  .header-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 25px;
+  }
+  .header-nav ul li {
+    list-style-type: none;
+    padding: 10px;
+  }
+  .header-nav ul {
+    display: flex;
+    justify-content: space-around;
+    font-size: 15px;
+  }
+  .cajas-footer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 33%;
+  }
+  .icon-footer {
+    width: 100%;
+  }
+  .footer-li {
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+  }
+  footer section ul p {
+    width: 100%;
+  }
+  .footer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media (min-width: 1280px) {
+  main section article {
+    width: 20%;
+    justify-content: space-around;
+  }
+  .compra-cuota {
+    justify-content: flex-start;
+    display: flex;
+  }
+}

@@ -1,0 +1,103 @@
+.na {
+  width: 90%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin: 25px 20px;
+  flex-wrap: wrap;
+}
+.fn {
+  font-weight: bold;
+  width: 90%;
+  margin: 20px;
+}
+.form {
+  width: 90%;
+  margin: 10px;
+}
+.alto-input {
+  width: 100%;
+  height: 30px;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px;
+}
+.pu label {
+  width: 100%;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.pu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 10px 20px;
+}
+.intereses {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 20px;
+}
+.intereses label {
+  font-weight: bold;
+}
+.check {
+  margin: 10px;
+}
+.box {
+  margin: 10px;
+}
+.formulario {
+  width: 100%;
+  padding: 20px 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.contraseña {
+  width: 90%;
+  align-items: center;
+  display: flex;
+  margin: 25px 20px;
+  flex-wrap: wrap;
+}
+.contraseña label {
+  font-weight: bold;
+}
+.enviar-borrar {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.caja-e-b {
+  width: 90%;
+  padding: 0px 10%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 10%;
+}
+.enviar-borrar input {
+  font-size: 19px;
+  border-radius: 4px;
+  border: none;
+  background-color: #1259c3;
+  color: #ebebeb;
+  padding: 7px;
+  transition: all, 0.7s;
+  margin: 10px;
+}
+
+.boton-enviar:hover {
+  background-color: #0022aa;
+}
+@media (min-width: 1024px) {
+  .formulario {
+    width: 55%;
+    margin: 0px 20%;
+  }
+}
