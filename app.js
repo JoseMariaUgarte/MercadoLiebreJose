@@ -17,6 +17,6 @@ app.get('/login', (req, res)=>{
     res.sendFile(__dirname + '/views/login.html')
 })
 
-app.listen(4444, ()=>{
+app.listen(process.env.PORT || 4444, ()=>{
     console.log("ENTRANDO A 4444")
 })
