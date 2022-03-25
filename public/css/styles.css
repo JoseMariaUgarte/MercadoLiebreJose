@@ -190,6 +190,9 @@ main section article:hover .descripcion {
 .icon-footer i:hover {
   color: #0022aa;
 }
+.header-nav ul li a {
+  text-decoration: none;
+}
 
 @media (min-width: 361px) {
   .descripcion {
